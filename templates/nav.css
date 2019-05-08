@@ -1,0 +1,45 @@
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 48px;
+  min-width: 1024px;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  z-index: 2;
+}
+
+.menu-container {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -5px;
+  max-width: 980px;
+  padding: 0 22px;
+}
+.menu-container ul {
+  list-style: none;
+}
+.menu-container ul li {
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  margin-right: 76px;
+}
+.menu-container ul li:last-child {
+  margin-right: 0;
+}
+.menu-container ul li a {
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue",  sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+  font-size: 16px;
+  float: left;
+}
+.menu-container ul li a:hover {
+  color: #969696;
+}
+
