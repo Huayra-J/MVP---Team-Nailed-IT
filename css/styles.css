@@ -1,0 +1,81 @@
+body
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.wrapper
+{
+  height: 100%;
+  width: 100%;
+  text-align:center;
+
+}
+
+
+#bars
+{
+  float: left;
+  font-size: 50px;
+  display: block;
+  cursor: pointer;
+}
+
+#search
+{
+  font-size: 50px;
+  float: right;
+  display: block;
+
+}
+
+#mobile_logo
+{
+  width: 100px;
+  margin-bottom: 30px;
+
+
+}
+
+
+h1
+{
+  margin:0;
+
+
+}
+
+.nav
+{
+  width: 0;
+  overflow-x: hidden;
+  height: 50vh;
+  z-index: 1;
+  position: fixed;
+  background-color: rgba(34, 65, 93, 0.9);
+  transition: 0.5s;
+  display: block;
+
+}
+
+.nav a {
+  clear: left;
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 35px;
+  padding: .5em;
+  transition: 0.3s;
+
+}
+
+.close
+{
+  float: left;
+}
+
+
+.nav a:not(:first-child):hover{
+    background-color: orange;
+}
