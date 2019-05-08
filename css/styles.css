@@ -3,7 +3,6 @@ body
   padding: 0;
   margin: 0;
   width: 100%;
-
 }
 
 .wrapper
@@ -14,10 +13,6 @@ body
 
 }
 
-a
-{
-  text-decoration: none;
-}
 
 #bars
 {
@@ -35,26 +30,52 @@ a
 
 }
 
-h1
-{
-  margin:0;
-
-}
-
 #mobile_logo
 {
   width: 100px;
   margin-bottom: 30px;
+
+
 }
 
-.card {
-	display:inline-block;
-	width: 380px;
-	height: auto;
-	min-height: 280px;
-	font-size: 16px;
-	border-radius: 10px;
-	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-	border-radius: 5px;
 
+h1
+{
+  margin:0;
+
+
+}
+
+.nav
+{
+  width: 0;
+  overflow-x: hidden;
+  height: 50vh;
+  z-index: 1;
+  position: fixed;
+  background-color: rgba(34, 65, 93, 0.9);
+  transition: 0.5s;
+  display: block;
+
+}
+
+.nav a {
+  clear: left;
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 35px;
+  padding: .5em;
+  transition: 0.3s;
+
+}
+
+.close
+{
+  float: left;
+}
+
+
+.nav a:not(:first-child):hover{
+    background-color: orange;
 }

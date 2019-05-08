@@ -11,14 +11,15 @@
   <div class= "wrapper">
 
     <div class= "nav">
+      <a href="javascript:void(0)" class = "close" onclick="closeNav()">&times;</a>
       <a href="#">Home</a>
       <a href="#">Study skills - Academic Writing </a>
       <a href="#">Settings</a>
-      <a href="#"></a>
+
     </div>
 
 
-      <span id="bars"><i class="fa fa-bars"></i></span>
+      <span id="bars"  onclick="openNav()"><i class="fa fa-bars"></i></span>
       <a><img id="mobile_logo" src = "images/logo.jpg"></img></a>
 
       <span id="search"><i class="fa fa-search"></i></span>
@@ -29,29 +30,17 @@
 
       <p>sdfsadfsadfsa</p>
 
-        <div class="card">
-
-      		<div class="card-image">
-      				 <img src="images/inclusive.jpg"/ alt="Picture" class="banner">
-      				 <div class="Card-title" >
-      				 				<h1>Inclusive language</h1>
-      				 </div>
-      	 	</div>
-
-      	  <div class="content">
-      					<div class="paragraph">
-      						<p>Inclusive language is language that does not belittle, exclude, stereotype or trivialise people on the basis of their race, gender or disability.
-      						</p>
-      					</div>
-
-      					<div class="Read-more">
-      						  <a href="http://learnline.cdu.edu.au/studyskills/studyskills/inclusivelanguage.html"><button class="More"> <span>Read More</span> </button></a>
-      					</div>
-      		</div>
-      </div>
+      <script>
+          function openNav(){
+              document.getElementById("open").style.display="none";
+              document.getElementById("nav").style.width="none";
+          }
+          function openNav(){
+              document.getElementById("nav").style.display="0";
+              document.getElementById("open").style.width="block";
+      </script>
 
   </div>
-
 
 
 
