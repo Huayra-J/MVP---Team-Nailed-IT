@@ -14,14 +14,24 @@ body
 }
 
 
+.open{
+  float: left;
+  font-size: 50px;
+}
 
+.search{
+  float: right;
+  font-size: 50px;
+}
 .fa fa-search
 {
   font-size: 50px;
   float: right;
   display: block;
 
+
 }
+
 
 .logo
 {
@@ -36,6 +46,8 @@ h1
 
 
 }
+
+
 
 .nav
 {
@@ -63,7 +75,7 @@ h1
 
 .close
 {
-  float: left;
+  float: right;
 }
 
 
