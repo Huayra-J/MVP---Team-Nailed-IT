@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- link for Icons -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- link for Icons -->
 
 </head>
 <body>
 
-  <div class= "wrapper">
+	<div class= "wrapper">
 
-    <div class= "nav">
-      <a href="javascript:void(0)" class = "close" onclick="closeNav()">&times;</a>
-      <a href="#">Home</a>
-      <a href="#">Study skills - Academic Writing </a>
-      <a href="#">Settings</a>
+		<div class= "nav" id="nav">
+			<a href="javascript:void(0)" class = "close" onclick="closeNav()">&times;</a>
+			<a href="#">Home</a>
+			<a href="#">Study skills - Academic Writing </a>
+			<a href="#">Settings</a>
+		</div>
 
-    </div>
+		<span onclick="openNav()" class="open" id="open">&#9776</span>
 
+		<a><img id="mobile_logo" src = "images/logo.jpg"></img></a>
 
-      <span id="bars"  onclick="openNav()"><i class="fa fa-bars"></i></span>
-      <a><img id="mobile_logo" src = "images/logo.jpg"></img></a>
+		<span id="search"><i class="fa fa-search"></i></span>
 
-      <span id="search"><i class="fa fa-search"></i></span>
+		<h1>Study Skills Acedemic Writing</h1>
 
-      <h1>Study Skills Acedemic Writing</h1>
+		<h2>Introduction </h2>
 
-      <h2>Introduction </h2>
+		<p>sdfsadfsadfsa</p>
 
-      <p>sdfsadfsadfsa</p>
+		<script>
+			function openNav() {
+				document.getElementById("open").style.display = "none";
+				document.getElementById("nav").style.width = "100%";
+			}
+			function closeNav() {
+				
+				document.getElementById("nav").style.width = "0";
+				document.getElementById("open").style.display = "block";
+			}
+		</script>
 
-      <script src="js/main.js"></script>
-
-  </div>
+	</div>
 
 
 
