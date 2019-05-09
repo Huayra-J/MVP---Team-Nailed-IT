@@ -28,10 +28,7 @@ body
   font-size: 50px;
   float: right;
   display: block;
-
-
 }
-
 
 .logo
 {
@@ -39,15 +36,10 @@ body
   margin-bottom: 30px;
 }
 
-
 h1
 {
   margin:0;
-
-
 }
-
-
 
 .nav
 {
@@ -81,4 +73,64 @@ h1
 
 .nav a:not(:first-child):hover{
     background-color: orange;
+}
+
+.card {
+	display: inline-block;
+	margin: 16px;
+	width: 380px;
+	min-height: 280px;
+	font-size: 16px;
+	background-color: #ffffff;
+	border-radius: 2px;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+	margin: 24px;
+	text-align: left;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.card .heading {
+	position: relative;
+	height: 80px;
+	color: White;
+	background-color: #4285f4;
+	border-top-right-radius: 5px;
+	border-top-left-radius:5px;
+}
+
+
+.card .content {
+	font-size: 0.875em;
+	padding: 16px;
+	font-family: sans-serif;
+
+}
+
+.card .button {
+	border: none;
+	color: #A349E4;
+	background-color: white;
+	padding: 8px ;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 8px;
+	margin-left: 8px;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+
+.card .button:hover {
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 2px;
+
+}
+
+img {
+	max-width: 100%;
 }
