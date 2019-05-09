@@ -14,15 +14,8 @@ body
 }
 
 
-#bars
-{
-  float: left;
-  font-size: 50px;
-  display: block;
-  cursor: pointer;
-}
 
-#search
+.fa fa-search
 {
   font-size: 50px;
   float: right;
@@ -30,12 +23,10 @@ body
 
 }
 
-#mobile_logo
+.logo
 {
   width: 100px;
   margin-bottom: 30px;
-
-
 }
 
 
