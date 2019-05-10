@@ -12,12 +12,9 @@
     width: 100%;
   }
 
-  .logo{
-    display:none;
-  }
-.open {
+  .open {
   display:none;
-}
+  }
   .wrapper
   {
     height: 100%;
@@ -47,7 +44,10 @@
   {
     width: 100px;
     margin-bottom: 30px;
+    display:none;
   }
+
+
 
   h1{
   	padding: 16px;
@@ -79,6 +79,9 @@
   	line-height: 1.5;
   }
 
+
+
+
 .nav  {
   display: none;
 
@@ -104,6 +107,8 @@ nav {
 
 .banner_img{
   width:270px;
+
+
 }
 
 .menu-container {
@@ -317,7 +322,7 @@ p:hover .hide {
   }
 
   .nav a {
-    clear: left;
+    clear: right;
     color: white;
     text-decoration: none;
     display: block;
@@ -325,7 +330,11 @@ p:hover .hide {
     padding: .5em;
     transition: 0.3s;
 
+
+
   }
+
+
 
   .close
   {
@@ -333,9 +342,16 @@ p:hover .hide {
   }
 
 
+
   .nav a:not(:first-child):hover{
       background-color: orange;
+
+
   }
+  .nav a:not(:first-child) /* To separe the X from the rest */
+  {
+        border: solid;
+    }
 
   .card{
   	display: inline-block;
