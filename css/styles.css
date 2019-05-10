@@ -3,7 +3,7 @@
   padding:0;
 
 } */
-@media (min-width: 600px){
+@media (min-width: 750px){
 
   body
   {
@@ -232,7 +232,7 @@ p:hover .hide {
     display: none;
 }
 
-@media (max-width:600px){
+@media (max-width:750px){
   body
   {
     padding: 0;
