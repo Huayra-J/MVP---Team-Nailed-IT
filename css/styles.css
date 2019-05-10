@@ -248,6 +248,10 @@ p:hover .hide {
   display:none;
   }
 
+  .banner_img{
+    display:none;
+  }
+
   .wrapper
   {
     height: 100%;
