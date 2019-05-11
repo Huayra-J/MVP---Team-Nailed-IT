@@ -357,6 +357,27 @@ p:hover .hide {
         border: solid;
     }
 
+
+  .menu_buttons
+    {
+
+      float: right;
+      background-color:  inherit;
+      color: white;
+      text-decoration: none;
+      border:none;
+      display: block;
+      font-size: 35px;
+      padding: 0 2 3 0;;
+      transition: 0.3s;
+    }
+
+    .dropdown-content{
+      display:none;
+    }
+
+    .show {display:block;}
+
   .card{
   	display: inline-block;
   	margin: 16px;
