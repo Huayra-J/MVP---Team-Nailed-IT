@@ -86,7 +86,7 @@
 	  background: #1e1d1d;
 	  font-size: 18px;
 	  display: block;
-	  margin-left: 250px;
+	  margin-left: 300px;
 	}
 
 	.banner_img{
@@ -99,8 +99,7 @@
 	  position: relative;
 	  margin: 0 auto;
 	  margin-top: -5px;
-	  max-width: 980px;
-	  padding: 0 22px;
+	  padding: 0 10%;
 	}
 	.menu-container ul {
 	  list-style: none;
@@ -108,8 +107,7 @@
 	.menu-container ul li {
 	  display: inline-block;
 	  text-align: center;
-	  width: auto;
-	  margin-right: 25px;
+	  margin-right: 6%;
 	}
 	.menu-container ul li:last-child {
 	  margin-right: 0;
