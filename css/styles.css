@@ -83,7 +83,6 @@
 	  right: 0;
 	  left: 0;
 	  height: 48px;
-	  min-width: 1024px;
 	  background: #1e1d1d;
 	  font-size: 18px;
 	  display: block;
@@ -137,9 +136,10 @@
 	  display: inline-block;
 	  margin: 16px;
 	  width: 380px;
-	  height: 450px;
+	  height: 550px;
 	  min-height: 280px;
 	  font-size: 16px;
+	  text-align: left;
 	  background-color: #ffffff;
 	  border-radius: 2px;
 	  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
@@ -151,7 +151,6 @@
 	.card:hover{
 	  box-shadow: 0 8px 16px 0 #5e6063;
 	  border-bottom: 1px solid black;
-	  height: 550px;
 	}
 
 	.card .heading{
@@ -168,12 +167,8 @@
 	  font-size: 0.875em;
 	  padding: 16px;
 	  font-family: sans-serif;
-	  height: 70px;
+	  height: 30%;
 	  transition: height 1s;
-	}
-
-	.card .content:hover{
-	  height: 160px;
 	}
 
 	.card .button {
@@ -201,25 +196,6 @@
 
 	img {
 	  max-width: 100%;
-	}
-
-	.extra {
-		display: none;
-	  position:relative;
-	  animation:animatetop 0.5s}@keyframes animatetop{from{top:-100px;opacity:0} to{top:0;opacity:1} /*got the code from https://www.w3schools.com/w3css/4/w3.css, line 119*/
-	}
-
-	p:hover .extra {
-		display: inline-block;
-	}
-
-	.hide{
-	  font-style: italic;
-	  text-decoration: underline;
-	}
-
-	p:hover .hide {
-		display: none;
 	}
 }
 
