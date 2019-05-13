@@ -1,470 +1,465 @@
-/* *{
-  margin:0;
-  padding:0;
+@media (min-width: 768px){
 
-} */
-@media (min-width: 750px){
+	body{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
 
-  body
-  {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
+	.open {
+	display:none;
+	}
+	
+	.wrapper{
+	height: 100%;
+	width: 100%;
+	text-align:center;
+	padding-top: 20px;
+	}
 
-  .open {
-  display:none;
-  }
-  .wrapper
-  {
-    height: 100%;
-    width: 100%;
-    text-align:center;
-    padding-top: 20px;
+	.open{
+	float: left;
+	font-size: 50px;
+	}
 
-  }
+	.search{
+	float: right;
+	font-size: 50px;
+	}
+	
+	.fa fa-search{
+	font-size: 50px;
+	float: right;
+	display: block;
+	}
 
-  .open{
-    float: left;
-    font-size: 50px;
-  }
-
-  .search{
-    float: right;
-    font-size: 50px;
-  }
-  .fa fa-search
-  {
-    font-size: 50px;
-    float: right;
-    display: block;
-  }
-
-  .logo
-  {
-    width: 100px;
-    margin-bottom: 30px;
-    display:none;
-  }
+	.logo{
+	width: 100px;
+	margin-bottom: 30px;
+	display:none;
+	}
 
 
 
-  h1{
-  	padding: 16px;
-  	font-family: sans-serif;
-  	font-size: 2.5em;
-  	margin: 16px;
-  	text-shadow: 2px 2px 4px #979ba3;
-  }
+	h1{
+	padding: 16px;
+	font-family: sans-serif;
+	font-size: 2.5em;
+	margin: 16px;
+	text-shadow: 2px 2px 4px #979ba3;
+	}
 
-  h2{
-  	font-size: 1.25em;
-  	margin: 0;
-  	padding: 16px;
-  	font-family: sans-serif;
-  }
+	h2{
+	font-size: 1.25em;
+	margin: 0;
+	padding: 16px;
+	font-family: sans-serif;
+	}
 
-  h3{
-  	font-size: 1em;
-  	margin: 0;
-  	padding-left: 16px;
-  	padding-bottom: 16px;
-  	font-family: sans-serif;
-  }
+	h3{
+	font-size: 1em;
+	margin: 0;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	font-family: sans-serif;
+	}
 
-  p{
-  	margin: 0.8em 0;
-  	padding: 0;
-  	font-family: sans-serif;
-  	line-height: 1.5;
-  }
+	p{
+	margin: 0.8em 0;
+	padding: 0;
+	font-family: sans-serif;
+	line-height: 1.5;
+	}
 
 
 
 
-.nav  {
-  display: none;
+	.nav  {
+	display: none;
+	}
+
+	.search{
+	display:none
+	}
+
+	nav {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  left: 0;
+	  height: 48px;
+	  min-width: 1024px;
+	  background: #1e1d1d;
+	  font-size: 18px;
+	  display: block;
+	  margin-left: 250px;
+	}
+
+	.banner_img{
+	  width:270px;
+
+
+	}
+
+	.menu-container {
+	  position: relative;
+	  margin: 0 auto;
+	  margin-top: -5px;
+	  max-width: 980px;
+	  padding: 0 22px;
+	}
+	.menu-container ul {
+	  list-style: none;
+	}
+	.menu-container ul li {
+	  display: inline-block;
+	  text-align: center;
+	  width: auto;
+	  margin-right: 25px;
+	}
+	.menu-container ul li:last-child {
+	  margin-right: 0;
+	}
+	.menu-container ul li a {
+	  display: inline-block;
+	  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue",  sans-serif;
+	  text-decoration: none;
+	  color: #fff;
+	  font-weight: 100;
+	  font-size: 16px;
+	  float: left;
+	}
+	.menu-container ul li a:hover {
+	  color: #969696;
+	}
+	.img{
+		width: 20px;
+		height: 20px;
+		margin-bottom: -5px;
+	}
+
+	.card{
+	  display: inline-block;
+	  margin: 16px;
+	  width: 380px;
+	  height: 450px;
+	  min-height: 280px;
+	  font-size: 16px;
+	  background-color: #ffffff;
+	  border-radius: 2px;
+	  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+	  border-radius: 5px;
+	  margin: 24px;
+	  transition: height 1s;
+	}
+
+	.card:hover{
+	  box-shadow: 0 8px 16px 0 #5e6063;
+	  border-bottom: 1px solid black;
+	  height: 550px;
+	}
+
+	.card .heading{
+	  position: relative;
+	  height: 80px;
+	  color: White;
+	  background-color: #4285f4;
+	  border-top-right-radius: 5px;
+	  border-top-left-radius:5px;
+	}
+
+
+	.card .content {
+	  font-size: 0.875em;
+	  padding: 16px;
+	  font-family: sans-serif;
+	  height: 70px;
+	  transition: height 1s;
+	}
+
+	.card .content:hover{
+	  height: 160px;
+	}
+
+	.card .button {
+	  border: none;
+	  background-color: white;
+	  padding: 8px ;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  font-weight: bold;
+	  color: #A349E4;
+	  margin: 8px;
+	  cursor: pointer;
+	  font-family: sans-serif;
+
+	}
+
+
+	.card .button:hover {
+	  background-color: #30872C;
+	  color: white;
+	  border-radius: 2px;
+
+	}
+
+	img {
+	  max-width: 100%;
+	}
+
+	.extra {
+		display: none;
+	  position:relative;
+	  animation:animatetop 0.5s}@keyframes animatetop{from{top:-100px;opacity:0} to{top:0;opacity:1} /*got the code from https://www.w3schools.com/w3css/4/w3.css, line 119*/
+	}
+
+	p:hover .extra {
+		display: inline-block;
+	}
+
+	.hide{
+	  font-style: italic;
+	  text-decoration: underline;
+	}
+
+	p:hover .hide {
+		display: none;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	body
+	{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	}
+	nav{
+	display:none;
+	}
+
+	.banner_img{
+	display:none;
+	}
+
+	.wrapper
+	{
+	height: 100%;
+	width: 100%;
+	text-align:center;
+
+	}
+
+	.open{
+	float: left;
+	font-size: 50px;
+	}
+
+	.search{
+	float: right;
+	font-size: 50px;
+	}
+	.fa fa-search
+	{
+	font-size: 50px;
+	float: right;
+	display: block;
+	}
+
+	.logo
+	{
+	width: 100px;
+	margin-bottom: 30px;
+	}
+
+	h1{
+	padding: 16px;
+	font-family: sans-serif;
+	font-size: 2.5em;
+	margin: 16px;
+	text-shadow: 2px 2px 4px #979ba3;
+	}
+
+	h2{
+	font-size: 1.25em;
+	margin: 0;
+	padding: 16px;
+	font-family: sans-serif;
+	}
+
+	h3{
+	font-size: 1em;
+	margin: 0;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	font-family: sans-serif;
+	}
+
+	p{
+	margin: 0.8em 0;
+	padding: 0;
+	font-family: sans-serif;
+	line-height: 1.5;
+	}
+
+	.nav
+	{
+	width: 0;
+	overflow-x: hidden;
+	height: 50vh;
+	z-index: 1;
+	position: fixed;
+	background-color: rgba(34, 65, 93, 0.9);
+	transition: 0.5s;
+	display: block;
+
+	}
+
+	.nav a {
+	clear: right;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-size: 35px;
+	padding: .5em;
+	transition: 0.3s;
+
+
+
+	}
+
+
+
+	.close
+	{
+	float: right;
+	}
+
+
+
+	.nav a:not(:first-child):hover{
+	  background-color: orange;
+
+
+	}
+	.nav a:not(:first-child) /* To separe the X from the rest */
+	{
+		border: solid;
+	}
+
+
+	.menu_buttons
+	{
+
+	  float: right;
+	  background-color:  inherit;
+	  color: white;
+	  text-decoration: none;
+	  border:none;
+	  display: block;
+	  font-size: 35px;
+	  padding: 0 2 3 0;;
+	  transition: 0.3s;
+	}
+
+	.dropdown-content{
+	  display:none;
+	}
+
+	.show {display:block;}
+
+	.card{
+	display: inline-block;
+	margin: 16px;
+	width: 380px;
+	height: 450px;
+	min-height: 280px;
+	font-size: 16px;
+	background-color: #ffffff;
+	border-radius: 2px;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+	margin: 24px;
+	transition: height 1s;
+	}
+
+	.card:hover{
+	box-shadow: 0 8px 16px 0 #5e6063;
+	border-bottom: 1px solid black;
+	height: 550px;
+	}
+
+	.card .heading{
+	position: relative;
+	height: 80px;
+	color: White;
+	background-color: #4285f4;
+	border-top-right-radius: 5px;
+	border-top-left-radius:5px;
+	}
+
+
+	.card .content {
+	font-size: 0.875em;
+	padding: 16px;
+	font-family: sans-serif;
+	height: 70px;
+	transition: height 1s;
+	}
+
+	.card .content:hover{
+	height: 160px;
+	}
+
+	.card .button {
+	border: none;
+	background-color: white;
+	padding: 8px ;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	color: #A349E4;
+	margin: 8px;
+	cursor: pointer;
+	font-family: sans-serif;
+
+	}
+
+
+	.card .button:hover {
+	background-color: #30872C;
+	color: white;
+	border-radius: 2px;
+
+	}
+
+	img {
+	max-width: 100%;
+	}
+
+	.extra {
+	  display: none;
+	position:relative;
+	animation:animatetop 0.5s}@keyframes animatetop{from{top:-100px;opacity:0} to{top:0;opacity:1} /*got the code from https://www.w3schools.com/w3css/4/w3.css, line 119*/
+	}
+
+	p:hover .extra {
+	  display: inline-block;
+	}
+
+	.hide{
+	font-style: italic;
+	text-decoration: underline;
+	}
+
+	p:hover .hide {
+	  display: none;
+	}
 
 }
 
-.search{
-display:none}
-
-}
-
-nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 48px;
-  min-width: 1024px;
-  background: #1e1d1d;
-  font-size: 18px;
-  display: block;
-  margin-left: 250px;
-}
-
-.banner_img{
-  width:270px;
-
-
-}
-
-.menu-container {
-  position: relative;
-  margin: 0 auto;
-  margin-top: -5px;
-  max-width: 980px;
-  padding: 0 22px;
-}
-.menu-container ul {
-  list-style: none;
-}
-.menu-container ul li {
-  display: inline-block;
-  text-align: center;
-  width: auto;
-  margin-right: 25px;
-}
-.menu-container ul li:last-child {
-  margin-right: 0;
-}
-.menu-container ul li a {
-  display: inline-block;
-  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue",  sans-serif;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 100;
-  font-size: 16px;
-  float: left;
-}
-.menu-container ul li a:hover {
-  color: #969696;
-}
-.img{
-	width: 20px;
-	height: 20px;
-	margin-bottom: -5px;
-}
-
-.card{
-  display: inline-block;
-  margin: 16px;
-  width: 380px;
-  height: 450px;
-  min-height: 280px;
-  font-size: 16px;
-  background-color: #ffffff;
-  border-radius: 2px;
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-  border-radius: 5px;
-  margin: 24px;
-  transition: height 1s;
-}
-
-.card:hover{
-  box-shadow: 0 8px 16px 0 #5e6063;
-  border-bottom: 1px solid black;
-  height: 550px;
-}
-
-.card .heading{
-  position: relative;
-  height: 80px;
-  color: White;
-  background-color: #4285f4;
-  border-top-right-radius: 5px;
-  border-top-left-radius:5px;
-}
-
-
-.card .content {
-  font-size: 0.875em;
-  padding: 16px;
-  font-family: sans-serif;
-  height: 70px;
-  transition: height 1s;
-}
-
-.card .content:hover{
-  height: 160px;
-}
-
-.card .button {
-  border: none;
-  background-color: white;
-  padding: 8px ;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-  color: #A349E4;
-  margin: 8px;
-  cursor: pointer;
-  font-family: sans-serif;
-
-}
-
-
-.card .button:hover {
-  background-color: #30872C;
-  color: white;
-  border-radius: 2px;
-
-}
-
-img {
-  max-width: 100%;
-}
-
-.extra {
-    display: none;
-  position:relative;
-  animation:animatetop 0.5s}@keyframes animatetop{from{top:-100px;opacity:0} to{top:0;opacity:1} /*got the code from https://www.w3schools.com/w3css/4/w3.css, line 119*/
-}
-
-p:hover .extra {
-    display: inline-block;
-}
-
-.hide{
-  font-style: italic;
-  text-decoration: underline;
-}
-
-p:hover .hide {
-    display: none;
-}
-
-@media (max-width:750px){
-  body
-  {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-  nav{
-  display:none;
-  }
-
-  .banner_img{
-    display:none;
-  }
-
-  .wrapper
-  {
-    height: 100%;
-    width: 100%;
-    text-align:center;
-
-  }
-
-  .open{
-    float: left;
-    font-size: 50px;
-  }
-
-  .search{
-    float: right;
-    font-size: 50px;
-  }
-  .fa fa-search
-  {
-    font-size: 50px;
-    float: right;
-    display: block;
-  }
-
-  .logo
-  {
-    width: 100px;
-    margin-bottom: 30px;
-  }
-
-  h1{
-  	padding: 16px;
-  	font-family: sans-serif;
-  	font-size: 2.5em;
-  	margin: 16px;
-  	text-shadow: 2px 2px 4px #979ba3;
-  }
-
-  h2{
-  	font-size: 1.25em;
-  	margin: 0;
-  	padding: 16px;
-  	font-family: sans-serif;
-  }
-
-  h3{
-  	font-size: 1em;
-  	margin: 0;
-  	padding-left: 16px;
-  	padding-bottom: 16px;
-  	font-family: sans-serif;
-  }
-
-  p{
-  	margin: 0.8em 0;
-  	padding: 0;
-  	font-family: sans-serif;
-  	line-height: 1.5;
-  }
-
-  .nav
-  {
-    width: 0;
-    overflow-x: hidden;
-    height: 50vh;
-    z-index: 1;
-    position: fixed;
-    background-color: rgba(34, 65, 93, 0.9);
-    transition: 0.5s;
-    display: block;
-
-  }
-
-  .nav a {
-    clear: right;
-    color: white;
-    text-decoration: none;
-    display: block;
-    font-size: 35px;
-    padding: .5em;
-    transition: 0.3s;
-
-
-
-  }
-
-
-
-  .close
-  {
-    float: right;
-  }
-
-
-
-  .nav a:not(:first-child):hover{
-      background-color: orange;
-
-
-  }
-  .nav a:not(:first-child) /* To separe the X from the rest */
-  {
-        border: solid;
-    }
-
-
-  .menu_buttons
-    {
-
-      float: right;
-      background-color:  inherit;
-      color: white;
-      text-decoration: none;
-      border:none;
-      display: block;
-      font-size: 35px;
-      padding: 0 2 3 0;;
-      transition: 0.3s;
-    }
-
-    .dropdown-content{
-      display:none;
-    }
-
-    .show {display:block;}
-
-  .card{
-  	display: inline-block;
-  	margin: 16px;
-  	width: 380px;
-  	height: 450px;
-  	min-height: 280px;
-  	font-size: 16px;
-  	background-color: #ffffff;
-  	border-radius: 2px;
-  	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-  	border-radius: 5px;
-  	margin: 24px;
-  	transition: height 1s;
-  }
-
-  .card:hover{
-  	box-shadow: 0 8px 16px 0 #5e6063;
-  	border-bottom: 1px solid black;
-  	height: 550px;
-  }
-
-  .card .heading{
-  	position: relative;
-  	height: 80px;
-  	color: White;
-  	background-color: #4285f4;
-  	border-top-right-radius: 5px;
-  	border-top-left-radius:5px;
-  }
-
-
-  .card .content {
-  	font-size: 0.875em;
-  	padding: 16px;
-  	font-family: sans-serif;
-  	height: 70px;
-  	transition: height 1s;
-  }
-
-  .card .content:hover{
-  	height: 160px;
-  }
-
-  .card .button {
-  	border: none;
-  	background-color: white;
-  	padding: 8px ;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-  	font-weight: bold;
-  	color: #A349E4;
-  	margin: 8px;
-  	cursor: pointer;
-  	font-family: sans-serif;
-
-  }
-
-
-  .card .button:hover {
-  	background-color: #30872C;
-  	color: white;
-  	border-radius: 2px;
-
-  }
-
-  img {
-  	max-width: 100%;
-  }
-
-  .extra {
-      display: none;
-  	position:relative;
-  	animation:animatetop 0.5s}@keyframes animatetop{from{top:-100px;opacity:0} to{top:0;opacity:1} /*got the code from https://www.w3schools.com/w3css/4/w3.css, line 119*/
-  }
-
-  p:hover .extra {
-      display: inline-block;
-  }
-
-  .hide{
-  	font-style: italic;
-  	text-decoration: underline;
-  }
-
-  p:hover .hide {
-      display: none;
-  }
+@media (min-width: 320px) and (max-width: 480px){
 
 }
