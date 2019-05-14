@@ -10,6 +10,12 @@
 		width: 100%;
 	}
 
+	.page_header{
+		background-image: url(../images/banner.png);
+		height: 230px;
+
+	}
+
 	.open {
 	display:none;
 	}
@@ -98,6 +104,7 @@
 
 	.banner_img{
 	  width:270px;
+
 	}
 
 	.menu-container {
@@ -105,6 +112,7 @@
 	  margin: 0 auto;
 	  margin-top: -5px;
 	  padding: 0 10%;
+		max-width: 1280px;
 	}
 
 	.menu-container ul {
@@ -167,7 +175,7 @@
 	  position: relative;
 	  height: 80px;
 	  color: White;
-	  background-color: #4285f4;
+	  background-color: #382a54;
 	  border-top-right-radius: 5px;
 	  border-top-left-radius:5px;
 	}
@@ -402,7 +410,7 @@
 	position: relative;
 	height: 80px;
 	color: White;
-	background-color: #4285f4;
+	background-color: #382a54;
 	border-top-right-radius: 5px;
 	border-top-left-radius:5px;
 	}
