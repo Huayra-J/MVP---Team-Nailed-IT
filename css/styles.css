@@ -130,66 +130,6 @@
 		margin-bottom: -5px;
 	}
 
-
-	
-	
-	
-	
-	#sidebarnav {
-		margin: 10px;
-		width: 250px;
-		float: right;
-		background-color: rgba(247,247,247);
-		border-left: 2px solid #ddd;
-	}
-
-	#sidebarnav ul{
-		margin: 0px;
-		padding: 0px;
-	}
-
-	#sidebarnav .sidebarnav-wrap {
-		font-size: inherit;
-		font-family: Arial, Helvetica, sans-serif;
-		padding: 0px;
-		/*position: absolute;
-		top: 220px;*/
-		font-size: 140%;
-		line-height: 160%;
-		width: 250px;
-	}
-
-	#sidebarnav .sidebarnav-wrap a{
-		display: inline-block;
-		text-decoration: none;
-		color: #333;
-		height: 35px;
-		line-height: 35px;
-		font-size: 15px;
-		text-indent: 1em;
-	}
-
-	#sidebarnav .sidebarnav-wrap p a:hover{
-		text-decoration: underline;
-	}
-
-	#sidebarnav .sidebarnav-wrap p,.content-right-top{
-		border-bottom: 1px solid #dfdfdf;
-	}
-
-	#sidebarnav .sidebarnav-wrap .content-left-wrap div{
-		border-bottom: none;
-	}
-
-	#sidebarnav .sidebarnav-wrap .content-left-wrap div li{
-		list-style-image: url(../images/tmm_east_gray.gif);
-		text-indent: 1em;
-	}
-	
-	
-	
-	
-	
 	.card{
 	  display: inline-block;
 	  margin: 16px;
@@ -334,6 +274,8 @@
 	.nav
 	{
 	width: 0;
+	text-align: left;
+	font-family: sans-serif;
 	overflow-x: hidden;
 	height: 50vh;
 	z-index: 1;
@@ -551,6 +493,8 @@
 	.nav
 	{
 	width: 0;
+	text-align: left;
+	font-family: sans-serif;
 	overflow-x: hidden;
 	height: 50vh;
 	z-index: 1;
@@ -595,7 +539,7 @@
 	  border:none;
 	  display: block;
 	  font-size: 35px;
-	  padding: 0 2 3 0;;
+	  padding: 0 2 3 0;
 	  transition: 0.3s;
 	}
 
@@ -637,7 +581,7 @@
 
 
 	.card .content {
-	font-size: 0.875em;
+	font-size: 0.5em;
 	padding: 16px;
 	font-family: sans-serif;
 	height: 130%;
