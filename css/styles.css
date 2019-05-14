@@ -1,4 +1,9 @@
 @media (min-width: 1025px){
+	html{
+	background-image: url(../images/bg.jpg);
+	background-size:cover;
+	height: 100%;
+	}
 
 	body{
 		padding: 0;
@@ -201,6 +206,12 @@
 }
 
 @media (min-width: 481px) and (max-width: 1024px){
+	html{
+	background-image: url(../images/bg.jpg);
+	background-size:cover;
+	height: 100%;
+	}
+	
 	body
 	{
 	padding: 0;
@@ -425,6 +436,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px){
+	html{
+		background-image: url(../images/bg.jpg);
+		background-size:cover;
+		height: 100%;
+	}
 
 	body{
 	padding: 0;
