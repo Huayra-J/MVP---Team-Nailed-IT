@@ -86,7 +86,7 @@
 	  background: #1e1d1d;
 	  font-size: 18px;
 	  display: block;
-	  margin-left: 300px;
+	  margin-left: 270px;
 	}
 
 	.banner_img{
@@ -101,13 +101,16 @@
 	  margin-top: -5px;
 	  padding: 0 10%;
 	}
+	
 	.menu-container ul {
 	  list-style: none;
+	  margin-left: -50px;
 	}
+	
 	.menu-container ul li {
 	  display: inline-block;
 	  text-align: center;
-	  margin-right: 6%;
+	  margin-right: 5%;
 	}
 	.menu-container ul li:last-child {
 	  margin-right: 0;
