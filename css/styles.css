@@ -95,8 +95,6 @@
 
 	.banner_img{
 	  width:270px;
-
-
 	}
 
 	.menu-container {
@@ -116,9 +114,11 @@
 	  text-align: center;
 	  margin-right: 5%;
 	}
+	
 	.menu-container ul li:last-child {
 	  margin-right: 0;
 	}
+	
 	.menu-container ul li a {
 	  display: inline-block;
 	  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue",  sans-serif;
@@ -128,9 +128,11 @@
 	  font-size: 16px;
 	  float: left;
 	}
+	
 	.menu-container ul li a:hover {
 	  color: #969696;
 	}
+	
 	.img{
 		width: 20px;
 		height: 20px;
@@ -190,7 +192,6 @@
 	  font-family: sans-serif;
 
 	}
-
 
 	.card .button:hover {
 	  background-color: #30872C;
@@ -326,7 +327,6 @@
 		border: solid;
 	}
 
-
 	.menu_buttons
 	{
 
@@ -386,7 +386,6 @@
 	height: 30%;
 	transition: height 1s;
 	}
-
 
 	.card .button {
 	border: none;
@@ -627,7 +626,6 @@
 	cursor: pointer;
 	font-family: sans-serif;
 	}
-
 
 	.card .button:hover {
 	background-color: #30872C;
