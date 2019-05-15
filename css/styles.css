@@ -20,6 +20,43 @@
 	font-size: 50px;
 	}
 
+.left_box{
+	height:100%;
+	width:15%;
+	float: left;
+}
+
+.right_box{
+	height:100%;
+	width: 85%;
+	float:right;
+}
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
 	/*To be shown when the website go to mobile view */
 	.wrapper{
 	height: 100%;
