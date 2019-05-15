@@ -1,7 +1,6 @@
 @media (min-width: 1025px){
 	html{
-	background-image: url(../images/bg.jpg);
-	background-repeat: repeat;
+	background-color: #f3f3f5;
 	}
 
 	body{
@@ -244,8 +243,8 @@
 
 @media (min-width: 481px) and (max-width: 1024px){
 	html{
-	background-image: url(../images/bg.jpg);
-	background-repeat: repeat;
+	background-color: #f3f3f5;
+
 	}
 
 	body
@@ -495,8 +494,7 @@
 
 @media (max-width: 480px){
 	html{
-		background-image: url(../images/bg.jpg);
-		background-repeat: repeat;
+	background-color: #f3f3f5;
 	}
 
 	body{
