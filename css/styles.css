@@ -41,7 +41,7 @@
 	}
 
 	/*Logo to be appearing in the mobile version*/
-	.mobile_logo{
+	.logo{
 	width: 100px;
 	margin-bottom: 30px;
 	display:none;
@@ -84,17 +84,17 @@
 
 	}
 
-	/**/
+	/* mobile navigation*/
 	.nav  {
 	display: none;
 	}
 
-	/**/
+	/*mobile search*/
 	.search{
 	display:none
 	}
 
-	/**/
+	/*destop navigation*/
 	nav {
 	  position: absolute;
 	  top: 0;
@@ -107,14 +107,14 @@
 	  margin-left: 270px;
 	}
 
-	/**/
+	/*CDU image on the left*/
 	.banner_img{
 	  width:270px;
 
 
 	}
 
-	/**/
+	/* Contents inside the menu*/
 	.menu-container {
 	  position: relative;
 	  margin: 0 auto;
@@ -157,26 +157,21 @@
 	  color: #969696;
 	}
 
-/*Back-ground behind logo and nav*/
+   /*Back-ground behind logo and nav*/
 	.page_header
 	{
 		background-color: #fff;
 	}
- /*Image under the navigation and header*/
-	.image_header
-	{
-		margin-left: 2.5%;
-		margin-right: 2.5%;
-	}
 
-	/**/
+
+	/*display image for search*/
 	.img{
 		width: 20px;
 		height: 20px;
 		margin-bottom: -5px;
 	}
 
-	/**/
+	/*display of the cards*/
 	.card{
 	  display: inline-block;
 	  margin: 16px;
@@ -243,7 +238,7 @@
 
 	}
 
-	/**/
+	/*images inside the cards*/
 	img {
 	  max-width: 100%;
 	}
@@ -266,6 +261,7 @@
 		margin-bottom: 5%;
 
 	}
+	/*end of sublink for the CSS*/
 
 
 }
@@ -282,14 +278,18 @@
 	margin: 0;
 	width: 100%;
 	}
+
+	/*destop navigation*/
 	nav{
 	display:none;
 	}
 
+	/*remove the cdu image*/
 	.banner_img{
 	display:none;
 	}
 
+	/*mobile version for cotents*/
 	.wrapper
 	{
 	height: 100%;
@@ -297,6 +297,8 @@
 	text-align:center;
 	}
 
+
+	/*menu bar for mobile design*/
 	.open{
 	float: left;
 	font-size: 50px;
@@ -304,12 +306,14 @@
 	margin-top: 20px;
 	}
 
+	/*search bar for mobile design*/
 	.search{
 	float: right;
 	font-size: 50px;
 	margin-right: 40px;
 	margin-top: 20px;
 	}
+
 	.fa fa-search
 	{
 	font-size: 50px;
@@ -317,6 +321,8 @@
 	display: block;
 	}
 
+
+	/*mobile logo*/
 	.logo
 	{
 	width: 100px;
@@ -355,6 +361,7 @@
 	text-align: left;
 	}
 
+	/*Navigation after clicking on the menu bar doesnt work unless clicked*/
 	.nav
 	{
 	width: 0;
@@ -380,6 +387,7 @@
 	transition: 0.3s;
 	}
 
+	/*Close buton on the navigation inside the menu bar*/
 	.close
 	{
 	float: right;
@@ -393,26 +401,11 @@
 		border: solid;
 	}
 
-	.menu_buttons
-	{
 
-	  float: right;
-	  background-color:  inherit;
-	  color: white;
-	  text-decoration: none;
-	  border:none;
-	  display: block;
-	  font-size: 35px;
-	  padding: 0 2 3 0;;
-	  transition: 0.3s;
-	}
-
-	.dropdown-content{
-	  display:none;
-	}
 
 	.show {display:block;}
 
+	/*styles for the cards*/
 	.card{
 	display: inline-block;
 	margin: 16px;
@@ -472,7 +465,7 @@
 	color: white;
 	border-radius: 2px;
 	}
-
+	/*images inside the card*/
 	img {
 	max-width: 100%;
 	}
@@ -496,7 +489,7 @@
 	  display: none;
 	}
 
-	/*sub-link css**/
+	/*sub-link css*/
 	.sub_contents{
 		margin-left: 15%;
 		margin-right: 15%;
@@ -514,6 +507,8 @@
 		margin-bottom: 5%;
 
 	}
+
+	/*sub-link css*/
 
 
 
@@ -533,6 +528,7 @@
 	width: 100%;
 	}
 
+	/*desktop navigation display blocked*/
 	nav{
 	display:none;
 	}
@@ -547,6 +543,7 @@
 	text-align:center;
 	}
 
+	/**/
 	.open{
 	float: left;
 	font-size: 50px;
@@ -568,6 +565,8 @@
 	display: block;
 	}
 
+
+	/*cdu mobile logo*/
 	.logo{
 	width: 20%;
 	margin-bottom: 20px;
@@ -605,6 +604,7 @@
 
 	}
 
+	/*destop nav bar*/
 	.nav
 	{
 	width: 0;
@@ -643,27 +643,9 @@
 		border: solid;
 	}
 
-
-	.menu_buttons
-	{
-
-	  float: right;
-	  background-color:  inherit;
-	  color: white;
-	  text-decoration: none;
-	  border:none;
-	  display: block;
-	  font-size: 35px;
-	  padding: 0 2 3 0;
-	  transition: 0.3s;
-	}
-
-	.dropdown-content{
-	  display:none;
-	}
-
 	.show {display:block;}
 
+	/*styles for the cards*/
 	.card{
 	display: inline-block;
 	margin: 10%;
@@ -723,11 +705,12 @@
 	border-radius: 2px;
 	}
 
+	/*images for cards*/
 	img {
 	max-width: 100%;
 	}
 
-	/*sub-link css**/
+	/*sub-link css*/
 
 	.sub_contents{
 		margin-left: 15%;
@@ -746,3 +729,4 @@
 		margin-bottom: 5%;
 
 	}
+	/*sub-link css*/
