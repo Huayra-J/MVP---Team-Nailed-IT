@@ -320,7 +320,13 @@
 	nav{
 	display:none;
 	}
+#myMenu{
+	display: none;
+}
 
+#mySearch{
+	display:none;
+}
 	/*remove the cdu image*/
 	.banner_img{
 	display:none;
