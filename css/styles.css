@@ -22,13 +22,14 @@
 
 .left_box{
 	height:100%;
-	width:15%;
+	width:10%;
 	float: left;
+	background:
 }
 
 .right_box{
 	height:100%;
-	width: 85%;
+	width: 90%;
 	float:right;
 }
 /* Style the search box */
@@ -44,7 +45,11 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+	display: none;
+
 }
+
+
 
 /* Style the navigation links */
 #myMenu li a {
