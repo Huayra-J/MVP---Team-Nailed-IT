@@ -103,6 +103,9 @@
 	  margin-left: 270px;
 	}
 
+
+
+
 	/*CDU image on the left*/
 	.banner_img{
 	  width:270px;
@@ -153,11 +156,18 @@
 	  color: #969696;
 	}
 
-   /*Back-ground behind logo and nav*/
-	.page_header
-	{
-		background-color: #fff;
+
+	/*second navigation */
+
+	.second_nav{
+		background-color: black;
+		text-align: center;
+		margin-top:-1.7%
+
 	}
+
+	
+
 
 
 	/*display image for search*/
