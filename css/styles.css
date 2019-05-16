@@ -122,14 +122,14 @@
 	/**/
 	.menu-container ul {
 	  list-style: none;
-	  margin-left: -50px;
+	  margin-left: -30px;
 	}
 
 	/**/
 	.menu-container ul li {
 	  display: inline-block;
 	  text-align: center;
-	  margin-right: 5%;
+	  margin-right: 8%;
 	}
 
 	/**/
