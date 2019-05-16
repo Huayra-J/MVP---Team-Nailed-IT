@@ -91,7 +91,7 @@
 	}
 
 	/*destop navigation*/
-	nav {
+	.first_nav {
 	  position: absolute;
 	  top: 0;
 	  right: 0;
@@ -115,7 +115,7 @@
 
 	/* Contents inside the menu*/
 	.menu-container {
-	  position: relative;
+
 	  margin: 0 auto;
 	  margin-top: -5px;
 	  padding: 0 10%;
@@ -162,7 +162,8 @@
 	.second_nav{
 		background-color: black;
 		text-align: center;
-		margin-top:-1.7%
+		margin-top:-1.7%;
+
 
 	}
 
