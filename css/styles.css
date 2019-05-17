@@ -537,6 +537,10 @@
 	nav{
 	display:none;
 	}
+	
+	.second_nav {
+		display: none;
+	}
 
 	.banner_img{
 	display:none;
