@@ -256,7 +256,7 @@
 
 	/*sub-link css**/
 	.sub_contents{
-		margin-left: 15%;
+		margin-left: 5%;
 		margin-right: 15%;
 		text-align: left;
 	}
@@ -269,6 +269,48 @@
 		border:solid;
 		margin-bottom: 5%;
 	}
+	/*horizontal card*/
+	.column1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 180px;
+	margin: 0;
+	background-color: white;
+}
+
+	.column2 {
+	float: left;
+	width:63%;
+	padding: 10px;
+	height: 180px;
+	margin: 0;
+	background-color: white;
+	}
+
+
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+
+	}
+
+	.horzontal_card
+	{
+		margin-bottom: 5%;
+	}
+
+	.column1 img
+	{
+
+		height: 180px;
+
+	}
+
+/*horizontal card ends*/
+
 	/*end of sublink for the CSS*/
 }
 
@@ -519,6 +561,48 @@
 
 	}
 
+	/*horizontal card*/
+	.column1 {
+	float: left;
+	width: 100%;
+	padding: 10px;
+	height: 180px;
+	margin: 0;
+	background-color: white;
+}
+
+	.column2 {
+	float: left;
+	width:100%;
+	padding: 10px;
+	height: 180px;
+	margin: 0;
+	background-color: white;
+	}
+
+
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+
+	}
+
+	.horzontal_card
+	{
+		margin-bottom: 5%;
+	}
+
+	.column1 img
+	{
+		height: inherit;
+		width: 100%;
+	}
+
+
+/*horizontal card ends*/
+
 	/*sub-link css*/
 
 
@@ -742,5 +826,38 @@
 		border:solid;
 		margin-bottom: 5%;
 
+	}
+
+	/*horizontal card*/
+	.column1 {
+	float: left;
+	width: 100%;
+	padding: 10px;
+	height: 180px;
+	margin: 0;
+	background-color: white;
+}
+
+	.column2 {
+	float: left;
+	width:100%;
+	padding: 10px;
+	height: 180px;
+	margin: 0;
+	background-color: white;
+	}
+
+
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+
+	}
+
+	.horzontal_card
+	{
+		margin-bottom: 5%;
 	}
 	/*sub-link css*/
