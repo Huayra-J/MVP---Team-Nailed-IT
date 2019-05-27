@@ -1,0 +1,36 @@
+@media (min-width: 1025px){
+	.card .heading{
+		height: 10%;
+	}
+	
+	.card .content{
+		height: 190px;
+	}
+	
+	p {
+		font-size: 1em;
+		line-height: 25px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 1024px){
+	.card .content{
+		height: 190px;
+	}	
+	
+	.card{
+		height: 580px;
+	}
+	
+	p {
+		font-size: 1em;
+		line-height: 25px;
+	}
+}
+
+@media(max-width: 480px){
+	p {
+		font-size: 1em;
+		line-height: 25px;
+	}	
+}
