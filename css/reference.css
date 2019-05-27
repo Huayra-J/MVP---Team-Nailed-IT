@@ -1,1 +1,152 @@
+@media (min-width: 1025px){
+  .Sub-cards{
+		display: inline-block;
+		margin: 16px;
+		width: 380px;
+		height: 300px;
+		min-height: 280px;
+		font-size: 16px;
+		text-align: left;
+		background-color: #ffffff;
+		border-radius: 2px;
+		box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+		border-radius: 5px;
+		margin: 24px;
+		transition: height 1s;
+	}
 
+	/**/
+	.Sub-cards:hover{
+		box-shadow: 0 8px 16px 0 #5e6063;
+		border-bottom: 1px solid black;
+	}
+
+	/**/
+	.Sub-cards .heading{
+		position: relative;
+		height: 80px;
+		color: White;
+		background-color: #382a54;
+		border-top-right-radius: 5px;
+		border-top-left-radius:5px;
+		display:content;
+	}
+
+	/**/
+	.Sub-cards .content {
+		font-size: 0.875em;
+		padding: 16px;
+		font-family: sans-serif;
+		height: 30%;
+		transition: height 1s;
+	}
+
+
+  	/*style for the lists inside the Sub-cards*/
+  .content ul li {
+		padding:  5px; ;
+	}
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 1024px){
+
+  .Sub-cards{
+  display: inline-block;
+  margin: 16px;
+  width: 380px;
+  height: 300px;
+  min-height: 280px;
+  font-size: 16px;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  margin: 24px;
+  transition: height 1s;
+  }
+
+  .Sub-cards:hover{
+  box-shadow: 0 8px 16px 0 #5e6063;
+  border-bottom: 1px solid black;
+  }
+
+  .Sub-cards .heading{
+  position: relative;
+  height: 80px;
+  color: White;
+  background-color: #382a54;
+  border-top-right-radius: 5px;
+  border-top-left-radius:5px;
+  }
+
+
+  .Sub-cards .content {
+  font-size: 0.875em;
+  padding: 16px;
+  font-family: sans-serif;
+  height: 30%;
+  transition: height 1s;
+  }
+
+
+  .content ul li {
+		padding:  5px; ;
+	}
+
+}
+
+
+@media (max-width: 480px)
+{
+  .Sub-cards{
+	display: inline-block;
+	margin: 10%;
+	width: 80%;
+	height: 100%;
+	min-height: 280px;
+	font-size: 16px;
+	text-align: left;
+	background-color: #ffffff;
+	border-radius: 2px;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+	margin: 24px;
+	transition: height 1s;
+	}
+
+	.Sub-cards:hover{
+	box-shadow: 0 8px 16px 0 #5e6063;
+	border-bottom: 1px solid black;
+	}
+
+	.Sub-cards .heading{
+	position: relative;
+	height: 20%;
+	color: White;
+	background-color: #382a54;
+	border-top-right-radius: 5px;
+	border-top-left-radius:5px;
+	}
+
+
+	.Sub-cards .content {
+	font-size: 0.875em;
+	padding: 16px;
+	font-family: sans-serif;
+	height: 130%;
+	transition: height 1s;
+	}
+
+
+
+	/*style for the lists inside the Sub-cards*/
+	.content ul li {
+		padding:  5px; ;
+	}
+}
+
+<p> Learn how to transform a journal reference to an APA 6th referencing style.   </p>
