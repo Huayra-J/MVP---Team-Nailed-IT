@@ -21,24 +21,32 @@
 
 	.float-panel{
 		width: 200px;
-		height: 200px;
+		height: 400px;
 		padding-left: 3%;
 		padding-right: 2%;
 		padding-top: 5%;
 		background-color: #211545;
-	}
-
-	/*text inside the vertical nav*/
-	.float-panel p a
-	{
-		text-decoration: none;
-		color: white;
-	}
-	
-	.panel{
 		font-size: 1.25em;
 		font-family: "Segoe UI";
+
 	}
+
+	.float-panel li {
+		list-style: none;
+		border-bottom: solid;
+		border-color: white;
+		padding: 20px;
+	}
+	.float-panel li a
+	{
+		text-decoration: none;
+		font-size: .85em;
+		font-family: "Segoe UI";
+		color: white;
+
+	}
+
+
 
 	/*To be shown when the website go to mobile view */
 	.wrapper{
@@ -50,11 +58,7 @@
 		padding-right: 5%;
 	}
 
-  /*Search bar at the mobile view*/
-	.search{
-		float: right;
-		font-size: 50px;
-	}
+
 
 	/*Logo to be appearing in the mobile version*/
 	.logo{
