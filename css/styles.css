@@ -33,9 +33,12 @@
 	{
 		text-decoration: none;
 		color: white;
-
 	}
-
+	
+	.panel{
+		font-size: 1.25em;
+		font-family: "Segoe UI";
+	}
 
 	/*To be shown when the website go to mobile view */
 	.wrapper{
