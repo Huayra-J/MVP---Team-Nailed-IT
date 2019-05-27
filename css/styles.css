@@ -24,11 +24,15 @@
 		height: 400px;
 		padding-left: 3%;
 		padding-right: 2%;
-		padding-top: 5%;
+		padding-top: 2%;
 		background-color: #211545;
 		font-size: 1.25em;
 		font-family: "Segoe UI";
+	}
 
+	.float-panel ul{
+		margin: 0;
+		padding: 0;
 	}
 
 	.float-panel li {
