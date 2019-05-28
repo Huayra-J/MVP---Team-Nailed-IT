@@ -276,7 +276,7 @@
 
 	.example{
 		border:solid;
-		
+
 
 	}
 	/*horizontal card*/
@@ -384,7 +384,7 @@
 	width: 100px;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	}
+	margin-right: 80px;	}
 
 	h1{
 	padding: 16px;
@@ -671,6 +671,7 @@
 	width: 20%;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	margin-right: 80px;
 	}
 
 	h1{
