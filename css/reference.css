@@ -49,13 +49,31 @@
 
 }
 
+@media (min-width: 620px) and (max-width: 1024px)
+{
+  .column1{
+    max-width: 400px;}
+
+    .column2 {
+  	width:400px;
+
+  	}
+
+    .sub_contents{
+      margin-left: 20%;
+    }
+
+
+
+  }
+
 
 
 @media (min-width: 481px) and (max-width: 1024px){
 
   .Sub-cards{
   display: inline-block;
-  margin: 16px;
+  margin: 56px;
   width: 380px;
   height: 300px;
   min-height: 280px;
@@ -148,5 +166,3 @@
 		padding:  5px; ;
 	}
 }
-
-<p> Learn how to transform a journal reference to an APA 6th referencing style.   </p>

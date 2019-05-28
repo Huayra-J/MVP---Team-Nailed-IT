@@ -278,6 +278,7 @@
 		border:solid;
 
 
+
 	}
 	/*horizontal card*/
 	.column1 {
@@ -582,7 +583,7 @@
 	float: left;
 	width:100%;
 	padding: 10px;
-	height: 180px;
+	height: auto;
 	margin: 0;
 	background-color: white;
 	}
