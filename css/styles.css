@@ -828,7 +828,6 @@
 
 	.example{
 		border:solid;
-		margin-bottom: 5%;
 
 	}
 
@@ -846,7 +845,7 @@
 	float: left;
 	width:100%;
 	padding: 10px;
-	height: 180px;
+	height: auto;
 	margin: 0;
 	background-color: white;
 	}
