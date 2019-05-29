@@ -425,7 +425,7 @@
 	text-align: left;
 	font-family: sans-serif;
 	overflow-x: hidden;
-	height: 60vh;
+	height: 700px;
 	z-index: 1;
 	position: fixed;
 	background-color: rgba(34, 65, 93, 0.9);
@@ -706,14 +706,14 @@
 
 	}
 
-	/*destop nav bar*/
+	/*mobile nav bar*/
 	.nav
 	{
 	width: 0;
 	text-align: left;
 	font-family: sans-serif;
 	overflow-x: hidden;
-	height: 60vh;
+	height: 600px;;
 	z-index: 1;
 	position: fixed;
 	background-color: rgba(34, 65, 93, 0.9);
